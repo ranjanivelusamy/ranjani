@@ -12,4 +12,58 @@ PROJECT OBJECTIVES :
      * chatbot- answer question,provide information .
      * System - customer service ,education and healthcare .
 
+FEATURES :
+     * User-friendly interface 
+     * AI-based response generation 
+     * User query handling 
+     * Time-saving communication
+     * Easy information access
+
+PROJECT STATUS :
+       Objective  Definition  and Problem Statement Completed 
+
+User :
+     The user can interact with the AI chatbot ,ask queries and receive quick responses .
+        * User Module 
+        * User Panel
+        * User Interaction 
+        * User Features 
+
+MODULE :
+        * User Module 
+        * Chatbot Module 
+        * Database Module 
+        * Authentication Module
+        * Admin Module 
+        * Interface Module 
+
+       👤 User Module
+            * User Registration
+            * User Login
+            * Ask Questions
+            * View Chat Responses
+            * Chat History
+       🤖 Chatbot Module
+            * AI Response Generation
+            * NLP Processing
+            * FAQ Handling
+            * Smart Reply System
+      🗄️ Database Module
+            * Store User Data
+            * Save Chat History
+            * Manage Information
+      🔐 Authentication Module
+            * Secure Login
+            * Password Validation
+            * User Verification
+      ⚙️ Admin Module
+            * Manage Users
+            * Update FAQ Data
+            * Monitor System
+     🌐 Interface Module
+            * User-Friendly Design
+            * Mobile/Desktop Support
+            * Easy Navigation
+
+      
 
