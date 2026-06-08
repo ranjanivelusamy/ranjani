@@ -2,7 +2,7 @@ PROJECT TITLE:
    AI Powered Smart Chatbot System 
 
 PROBLEM STATEMENT:
-      Many organizations and websites face difficulties in providing instant responses to user queries all the time. Human support
+   Many organizations and websites face difficulties in providing instant responses to user queries all the time. Human support
 systems require more time, cost, and manpower. Users expect quick and accurate answers, but traditional customer support cannot always
 respond immediately. To overcome these issues, an AI Powered Smart Chatbot System is developed to provide automatic, intelligent, and 
 real-time responses to users using Artificial Intelligence and Natural Language Processing (NLP).
@@ -36,8 +36,7 @@ MODULE :
         * Authentication Module
         * Admin Module 
         * Interface Module 
-
-       👤 User Module
+        👤 User Module
             * User Registration
             * User Login
             * Ask Questions
@@ -64,7 +63,6 @@ MODULE :
             * User-Friendly Design
             * Mobile/Desktop Support
             * Easy Navigation
-
 
 USE CASE DIAGRAM :
      ACTORS :
