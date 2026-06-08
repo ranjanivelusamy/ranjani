@@ -70,8 +70,8 @@ USE CASE DIAGRAM :
            * Student 
            * Admin 
      Diagram : 
-         ...
-             +----------------+
+              # Use Case Diagram - AI Powered Smart Chatbot System
+```text      +----------------+
              |      USER      |
              +----------------+
                     |
@@ -96,7 +96,9 @@ USE CASE DIAGRAM :
 +---------------+         +---------------+
 | Manage FAQ    |         | Manage Users  |
 +---------------+         +---------------+
-...
+```
+
+
                         
 DATABASE REQUIREMENTS :
       User Table
