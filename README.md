@@ -36,7 +36,6 @@ MODULE :
         * Authentication Module
         * Admin Module 
         * Interface Module 
-
        👤 User Module
             * User Registration
             * User Login
