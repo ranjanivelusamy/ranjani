@@ -130,7 +130,6 @@ Purpose :
 
 
 ER DIAGRAM :
-   # AI Powered Smart Chatbot System
 +------------------+
 |       USER       |
 +------------------+
