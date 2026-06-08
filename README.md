@@ -70,7 +70,7 @@ USE CASE DIAGRAM :
            * Student 
            * Admin 
      Diagram : 
-            ///
+         ...
              +----------------+
              |      USER      |
              +----------------+
@@ -96,7 +96,7 @@ USE CASE DIAGRAM :
 +---------------+         +---------------+
 | Manage FAQ    |         | Manage Users  |
 +---------------+         +---------------+
-///
+...
                         
 DATABASE REQUIREMENTS :
       User Table
@@ -130,7 +130,7 @@ Purpose :
 
 
 ER DIAGRAM :
- ///
+ ...
 +------------------+
 |       USER       |
 +------------------+
@@ -170,7 +170,7 @@ ER DIAGRAM :
 | question         |
 | answer           |
 +------------------+
-///
+...
 
 Relationships :
       * One User can have many Chats
