@@ -71,7 +71,32 @@ USE CASE DIAGRAM :
            * Student 
            * Admin 
      Diagram : 
-               
+               USE CASE DIAGRAM
+                         +-------------+
+                         |    ADMIN    |
+                         +-------------+
+                                |
+          ------------------------------------------------
+          |                    |                        |
+          |                    |                        |
+   +-------------+     +---------------+      +----------------+
+   | Manage User |     | Manage FAQ    |      | Monitor System |
+   +-------------+     +---------------+      +----------------+
+                         +-------------+
+                         |    USER     |
+                         +-------------+
+                                |
+     ----------------------------------------------------------------
+     |                    |                  |                      |
+     |                    |                  |                      |
++------------+      +-----------+      +-------------+      +---------------+
+| Register   |      | Login     |      | Ask Query   |      | View History  |
++------------+      +-----------+      +-------------+      +---------------+
+                                                                  |
+                                                                  |
+                                                         +------------------+
+                                                         | Receive Response |
+                                                         +------------------+
 
 DATABASE REQUIREMENTS :
       User Table
@@ -105,7 +130,7 @@ Purpose :
 
 
 ER DIAGRAM :
-# ER Diagram - AI Powered Smart Chatbot System
+   # AI Powered Smart Chatbot System
 
 ```text
 +------------------+
