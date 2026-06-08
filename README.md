@@ -70,7 +70,7 @@ USE CASE DIAGRAM :
            * Student 
            * Admin 
      Diagram : 
-         ...
+         ...text
              +----------------+
              |      USER      |
              +----------------+
