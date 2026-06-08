@@ -129,8 +129,7 @@ Purpose :
     * Maintain chat history in MySQL database.
 
 
-ER DIAGRAM :
- ...
+ER DIAGRAM : # ER Diagram - AI Powered Smart Chatbot System```text
 +------------------+
 |       USER       |
 +------------------+
@@ -170,7 +169,9 @@ ER DIAGRAM :
 | question         |
 | answer           |
 +------------------+
-...
+```
+ 
+
 
 Relationships :
       * One User can have many Chats
