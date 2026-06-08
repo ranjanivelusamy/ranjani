@@ -148,34 +148,49 @@ Purpose :
 
 
 ER DIAGRAM :
-+-----------+       +-----------+
-|   USER    |       |   ADMIN   |
-+-----------+       +-----------+
-| user_id   |       | admin_id  |
-| name      |       | admin_name|
-| email     |       | password  |
-| password  |       +-----------+
-+-----------+
-      |
-      | user_id
-      |
-+-----------+
-|   CHAT    |
-+-----------+
-| chat_id   |
-| user_id   |
-| question  |
-| response  |
-+-----------+
+# ER Diagram - AI Powered Smart Chatbot System
 
-+-----------+
-|    FAQ    |
-+-----------+
-| faq_id    |
-| question  |
-| answer    |
-+-----------+
+```text
++------------------+
+|       USER       |
++------------------+
+| user_id (PK)     |
+| name             |
+| email            |
+| password         |
++------------------+
+         |
+         | 1
+         |
+         | M
++------------------+
+|       CHAT       |
++------------------+
+| chat_id (PK)     |
+| user_id (FK)     |
+| question         |
+| response         |
+| timestamp        |
++------------------+
 
++------------------+
+|      ADMIN       |
++------------------+
+| admin_id (PK)    |
+| admin_name       |
+| password         |
++------------------+
+         |
+         | Manages
+         |
++------------------+
+|       FAQ        |
++------------------+
+| faq_id (PK)      |
+| question         |
+| answer           |
++------------------+
+```
 
 Relationships :
       * One User can have many Chats
