@@ -69,7 +69,7 @@ USE CASE DIAGRAM :
      ACTORS :
            * Student 
            * Admin 
-     Diagram : 
+     Diagram : # ER Diagram
          ...
              +----------------+
              |      USER      |
